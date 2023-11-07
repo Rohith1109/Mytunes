@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    font-family: sans-serif
+}
+header{
+    position: sticky;
+    top: 0;
+}
+nav{
+    background: #333333;
+    line-height: 40px;
+}
+nav li{
+    display: inline;
+    font-size: 14px;
+}
+nav>ul{
+    padding-inline-start: 10px;
+}
+nav>ul>li>a{
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+    text-decoration: none;
+    color: #ccc;
+
+}
+nav>ul>li>a:hover{
+    background-color: gray;
+}
+#main_module{
+    background-image: url(../image/showcase.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+}
+#main_bgimg{
+    background-image: url(../IMAGE/musician-349790_1280.jpg);
+    padding: 0px 50px;
+    text-align: center;
+
+    height: 100%;
+}
+#main_bgimg>h1{
+    display: block;
+    font-size: 50px;
+    color: rgb(10, 10, 10);
+    margin-bottom: 100px;
+
+}
+#main_bgimg>h2{
+    font-size: 27px;
+    margin: 40px 0px;
+    color: black;
+    
+}
+#main_bgimg>p{
+    margin: 0px 100px;
+    color: black;
+    line-height: 30px;
+    font-size: 18px;
+}
+#second{
+    padding: 32px 0px;
+    background-color: #252529;
+    text-align: center;
+    color: white;
+}
+#second>h2{
+    font-size: xx-large;
+}
+#second>h3{
+    font-size: 27px;
+    margin: 40px 0px;
+}
+#second>p{
+    margin: 20px 160px;
+    line-height: 30px;
+    font-size: 18px;
+}
+.btn1{
+    display: inline-block;
+    padding: 16px;
+    background-color: #B90415;
+}
+#second>a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+#second>img{
+    width: 1080px;
+}
+#third{
+    padding: 32px 0px;
+    text-align: center;
+}
+#third>h2{
+    margin: 40px 0px;
+    font-size: 26px;
+}
+#third>p{
+    margin: 20px 160px;
+    line-height: 30px;
+    font-size: 18px;
+}
+#third>.btn1{
+    padding: 12px;
+    background-color: #103063;
+}
+#third>a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+#third>img{
+    width: 1080px;
+}
+#fourth{
+    background-image: url(../image/section-bg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    padding: 160px 0px;
+    text-align: center;
+    color:black;
+}
+.container{
+    padding: 0px 32px;
+}
+.container>h3{
+    font-size: 32px;
+}
+.container>p{
+    margin: 20px 160px;
+    line-height: 30px;
+    font-size: 18px;
+}
+#fifth>.container{
+    display: flex;
+    flex-basis: 50%;
+    margin: 0px 32px;
+    padding: 40px;
+}
+#fifth>.container>div>img{
+    margin-left: 50px;
+    height: 400px;
+    width: 550px;
+}
+#fifth>.container>div>p{
+    color: #333333;
+    margin: 32px 0px;
+    line-height: 30px;
+}
+#fifth>.container>div>a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    background-color: #252529;
+    padding: 10px 40px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about{
+    padding: 20px;
+    flex-basis: 20%;
+}
+.about>ul>li>a{
+    display: inline-block;
+   text-align: left;
+   text-decoration: none;
+   padding: 5px;
+   color: #e0dbdb;
+}
+h4{
+    padding: 5px;
+}
+#copyright{
+    background-color: black;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+.head>img{
+    height: fit-content;
+    width: fit-content;
+}
